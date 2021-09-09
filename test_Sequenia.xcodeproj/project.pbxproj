@@ -9,21 +9,41 @@
 /* Begin PBXBuildFile section */
 		757C7DD326E8A20200F9E583 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DD226E8A20200F9E583 /* AppDelegate.swift */; };
 		757C7DD526E8A20200F9E583 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DD426E8A20200F9E583 /* SceneDelegate.swift */; };
-		757C7DD726E8A20200F9E583 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DD626E8A20200F9E583 /* ViewController.swift */; };
-		757C7DDA26E8A20200F9E583 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757C7DD826E8A20200F9E583 /* Main.storyboard */; };
+		757C7DD726E8A20200F9E583 /* FilmListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DD626E8A20200F9E583 /* FilmListViewController.swift */; };
 		757C7DDC26E8A20500F9E583 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 757C7DDB26E8A20500F9E583 /* Assets.xcassets */; };
 		757C7DDF26E8A20500F9E583 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 757C7DDD26E8A20500F9E583 /* LaunchScreen.storyboard */; };
+		757C7DE726E8A2AD00F9E583 /* FilmDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DE626E8A2AD00F9E583 /* FilmDetailViewController.swift */; };
+		757C7DE926E8A52A00F9E583 /* SectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DE826E8A52A00F9E583 /* SectionHeader.swift */; };
+		757C7DEB26E8AA8200F9E583 /* FilmCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DEA26E8AA8200F9E583 /* FilmCell.swift */; };
+		757C7DF026E8ACF800F9E583 /* UIStackView + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DEF26E8ACF800F9E583 /* UIStackView + Extension.swift */; };
+		757C7DF226E8CA6000F9E583 /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DF126E8CA6000F9E583 /* UIColor + Extension.swift */; };
+		757C7DF426E8CBE900F9E583 /* FilmListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DF326E8CBE900F9E583 /* FilmListViewModel.swift */; };
+		757C7DF626E8CC0300F9E583 /* FilmCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DF526E8CC0300F9E583 /* FilmCellViewModel.swift */; };
+		757C7DFC26E8CCCC00F9E583 /* ResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DFB26E8CCCC00F9E583 /* ResponseModel.swift */; };
+		757C7DFE26E8CE6800F9E583 /* FilmDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DFD26E8CE6800F9E583 /* FilmDetailViewModel.swift */; };
+		757C7E0026E8D96000F9E583 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7DFF26E8D96000F9E583 /* NetworkService.swift */; };
+		757C7E0226E9238D00F9E583 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 757C7E0126E9238D00F9E583 /* ImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		757C7DCF26E8A20200F9E583 /* test_Sequenia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test_Sequenia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		757C7DD226E8A20200F9E583 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		757C7DD426E8A20200F9E583 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		757C7DD626E8A20200F9E583 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		757C7DD926E8A20200F9E583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		757C7DD626E8A20200F9E583 /* FilmListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListViewController.swift; sourceTree = "<group>"; };
 		757C7DDB26E8A20500F9E583 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		757C7DDE26E8A20500F9E583 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		757C7DE026E8A20500F9E583 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		757C7DE626E8A2AD00F9E583 /* FilmDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailViewController.swift; sourceTree = "<group>"; };
+		757C7DE826E8A52A00F9E583 /* SectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionHeader.swift; sourceTree = "<group>"; };
+		757C7DEA26E8AA8200F9E583 /* FilmCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCell.swift; sourceTree = "<group>"; };
+		757C7DEF26E8ACF800F9E583 /* UIStackView + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView + Extension.swift"; sourceTree = "<group>"; };
+		757C7DF126E8CA6000F9E583 /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
+		757C7DF326E8CBE900F9E583 /* FilmListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListViewModel.swift; sourceTree = "<group>"; };
+		757C7DF526E8CC0300F9E583 /* FilmCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmCellViewModel.swift; sourceTree = "<group>"; };
+		757C7DFB26E8CCCC00F9E583 /* ResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseModel.swift; sourceTree = "<group>"; };
+		757C7DFD26E8CE6800F9E583 /* FilmDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmDetailViewModel.swift; sourceTree = "<group>"; };
+		757C7DFF26E8D96000F9E583 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		757C7E0126E9238D00F9E583 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +57,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75636BB526EA04BF00C42618 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				757C7DD226E8A20200F9E583 /* AppDelegate.swift */,
+				757C7DD426E8A20200F9E583 /* SceneDelegate.swift */,
+				757C7DE026E8A20500F9E583 /* Info.plist */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		75636BB626EA04EB00C42618 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				75636BB726EA050D00C42618 /* UIKit */,
+				757C7DE826E8A52A00F9E583 /* SectionHeader.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		75636BB726EA050D00C42618 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				757C7DEF26E8ACF800F9E583 /* UIStackView + Extension.swift */,
+				757C7DF126E8CA6000F9E583 /* UIColor + Extension.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		75636BB826EA052A00C42618 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				757C7E0126E9238D00F9E583 /* ImageService.swift */,
+				757C7DFF26E8D96000F9E583 /* NetworkService.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		75636BB926EA057800C42618 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				757C7DDD26E8A20500F9E583 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		75636BBA26EA09A300C42618 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				757C7DFB26E8CCCC00F9E583 /* ResponseModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		757C7DC626E8A20200F9E583 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +129,44 @@
 		757C7DD126E8A20200F9E583 /* test_Sequenia */ = {
 			isa = PBXGroup;
 			children = (
-				757C7DD226E8A20200F9E583 /* AppDelegate.swift */,
-				757C7DD426E8A20200F9E583 /* SceneDelegate.swift */,
-				757C7DD626E8A20200F9E583 /* ViewController.swift */,
-				757C7DD826E8A20200F9E583 /* Main.storyboard */,
+				757C7DEE26E8AB7700F9E583 /* FilmDetail */,
+				757C7DEC26E8AB4A00F9E583 /* FilmList */,
+				75636BBA26EA09A300C42618 /* Models */,
+				75636BB826EA052A00C42618 /* Network */,
+				75636BB626EA04EB00C42618 /* Extensions */,
+				75636BB526EA04BF00C42618 /* App */,
+				75636BB926EA057800C42618 /* Storyboards */,
 				757C7DDB26E8A20500F9E583 /* Assets.xcassets */,
-				757C7DDD26E8A20500F9E583 /* LaunchScreen.storyboard */,
-				757C7DE026E8A20500F9E583 /* Info.plist */,
 			);
 			path = test_Sequenia;
+			sourceTree = "<group>";
+		};
+		757C7DEC26E8AB4A00F9E583 /* FilmList */ = {
+			isa = PBXGroup;
+			children = (
+				757C7DED26E8AB5D00F9E583 /* FilmCell */,
+				757C7DD626E8A20200F9E583 /* FilmListViewController.swift */,
+				757C7DF326E8CBE900F9E583 /* FilmListViewModel.swift */,
+			);
+			path = FilmList;
+			sourceTree = "<group>";
+		};
+		757C7DED26E8AB5D00F9E583 /* FilmCell */ = {
+			isa = PBXGroup;
+			children = (
+				757C7DEA26E8AA8200F9E583 /* FilmCell.swift */,
+				757C7DF526E8CC0300F9E583 /* FilmCellViewModel.swift */,
+			);
+			path = FilmCell;
+			sourceTree = "<group>";
+		};
+		757C7DEE26E8AB7700F9E583 /* FilmDetail */ = {
+			isa = PBXGroup;
+			children = (
+				757C7DE626E8A2AD00F9E583 /* FilmDetailViewController.swift */,
+				757C7DFD26E8CE6800F9E583 /* FilmDetailViewModel.swift */,
+			);
+			path = FilmDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +228,6 @@
 			files = (
 				757C7DDF26E8A20500F9E583 /* LaunchScreen.storyboard in Resources */,
 				757C7DDC26E8A20500F9E583 /* Assets.xcassets in Resources */,
-				757C7DDA26E8A20200F9E583 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,23 +238,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				757C7DD726E8A20200F9E583 /* ViewController.swift in Sources */,
+				757C7DFC26E8CCCC00F9E583 /* ResponseModel.swift in Sources */,
+				757C7DF626E8CC0300F9E583 /* FilmCellViewModel.swift in Sources */,
+				757C7DF426E8CBE900F9E583 /* FilmListViewModel.swift in Sources */,
+				757C7DD726E8A20200F9E583 /* FilmListViewController.swift in Sources */,
+				757C7DF226E8CA6000F9E583 /* UIColor + Extension.swift in Sources */,
+				757C7DF026E8ACF800F9E583 /* UIStackView + Extension.swift in Sources */,
+				757C7DEB26E8AA8200F9E583 /* FilmCell.swift in Sources */,
 				757C7DD326E8A20200F9E583 /* AppDelegate.swift in Sources */,
+				757C7DE926E8A52A00F9E583 /* SectionHeader.swift in Sources */,
 				757C7DD526E8A20200F9E583 /* SceneDelegate.swift in Sources */,
+				757C7DE726E8A2AD00F9E583 /* FilmDetailViewController.swift in Sources */,
+				757C7E0026E8D96000F9E583 /* NetworkService.swift in Sources */,
+				757C7DFE26E8CE6800F9E583 /* FilmDetailViewModel.swift in Sources */,
+				757C7E0226E9238D00F9E583 /* ImageService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		757C7DD826E8A20200F9E583 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				757C7DD926E8A20200F9E583 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		757C7DDD26E8A20500F9E583 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,7 +392,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74TTKMJX34;
-				INFOPLIST_FILE = test_Sequenia/Info.plist;
+				INFOPLIST_FILE = test_Sequenia/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +412,8 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 74TTKMJX34;
-				INFOPLIST_FILE = test_Sequenia/Info.plist;
+				INFOPLIST_FILE = test_Sequenia/App/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
